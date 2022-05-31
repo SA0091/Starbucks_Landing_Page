@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link href="http://fonts.cdnfonts.com/css/cera-round-pro?styles=53202,53199" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header class="mx-5">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img class="w-75" src="images/logo.png" alt="Logo"></a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="myNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">What's New</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row my-5">
+                <div class="col col-lg-6 my-auto">
+                        <div class="contentBox">
+                            <h2>It's Not Just Coffee <br> It's <span>Starbucks</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus fugiat sequi, repellendus dignissimos saepe voluptatibus libero eveniet alias amet id? Voluptatum nulla optio similique reprehenderit.</p>
+                            <a href="#" class="learn_more_anchor">Learn More</a>
+                        </div>
+                </div>
+                <div class="col col-lg-6">
+                    <div class="contentImg">
+                        <img id="iceCreamshape" src="images/img1.png" alt="">
+                    </div>
+                </div>
+            </div>
+                <ul class="thumb list-unstyled text-center">
+                    <li onclick="selectIceCream('images/img1.png'); changeColor('var(--green-01)');" class="d-inline-block mx-2"><img src="images/thumb1.png" alt="#"></li>
+                    <li onclick="selectIceCream('images/img2.png'); changeColor('var(--pink-light)');" class="d-inline-block mx-2"><img src="images/thumb2.png" alt="#"></li>
+                    <li onclick="selectIceCream('images/img3.png'); changeColor('var(--pink-02)');" class="d-inline-block mx-2"><img src="images/thumb3.png" alt="#"></li>
+                </ul>
+                <div class="social-icon">
+                    <ul class="d-flex flex-column list-unstyled">
+                        <li class=""><a href=""><span class="fa-brands fa-facebook-f"></span></a></li>
+                        <li class=""><a href=""><span class="fa-brands fa-twitter"></span></a></li>
+                        <li class=""><a href=""><span class="fa-brands fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+        </header>
+    </section>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/active.js"></script>
+</body>
+</html>
